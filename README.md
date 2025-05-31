@@ -1,0 +1,162 @@
+# 🔍 ScanTheLie
+
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?logo=vite)](https://vitejs.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-11.8.1-FFCA28?logo=firebase)](https://firebase.google.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.1-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+
+## 🎯 Real-World Problem & Solution
+
+In today's world of processed foods and marketing claims, consumers often struggle to make informed decisions about their food choices. **ScanTheLie** empowers users to:
+
+- 📸 Scan food product labels
+- 🔍 Verify marketing claims
+- 🧪 Analyze ingredients
+- 📊 Get personalized health insights
+- 📱 Track consumption patterns
+- 🤖 Get real-time AI assistance
+
+### Real-Life Example
+
+> Sarah, a mother of two with a family history of diabetes, wants to ensure she's making the best food choices. While shopping, she encounters a product labeled "Sugar-Free" but contains unfamiliar ingredients. Using ScanTheLie, she:
+> 1. Scans the product label
+> 2. Gets instant verification of the "Sugar-Free" claim
+> 3. Receives a detailed breakdown of alternative sweeteners used
+> 4. Views a personalized health impact assessment
+> 5. Chats with the AI assistant to understand complex ingredients
+> 6. Saves the product to her history for future reference
+
+## 🏗️ Technical Architecture
+
+```mermaid
+graph TD
+    A[User Interface] --> B[React Components]
+    B --> C[Context API]
+    C --> D[Service Layer]
+    D --> E[Firebase Auth]
+    D --> F[Cloud Firestore]
+    D --> G[Cloud Storage]
+    D --> H[Gemini AI API]
+    H --> I[Smart Label Analysis]
+    H --> J[AI Chatbot]
+    
+    style A fill:#61DAFB
+    style B fill:#61DAFB
+    style C fill:#61DAFB
+    style D fill:#FF9900
+    style E fill:#FFCA28
+    style F fill:#FFCA28
+    style G fill:#FFCA28
+    style H fill:#4285F4
+    style I fill:#4285F4
+    style J fill:#4285F4
+```
+
+### Core Components
+
+1. **Frontend Layer**
+   - React 18 with TypeScript
+   - Vite for blazing-fast builds
+   - TailwindCSS for styling
+   - Framer Motion for animations
+   - Recharts for data visualization
+
+2. **State Management**
+   - React Context API
+   - Custom hooks for business logic
+   - Type-safe state management
+
+3. **Backend Services**
+   - Firebase Authentication
+   - Cloud Firestore for data storage
+   - Cloud Storage for images
+   - Gemini AI for image analysis and chatbot
+
+4. **AI Assistant**
+   - Real-time product analysis
+   - Interactive chat interface
+   - Context-aware responses
+   - Ingredient safety analysis
+   - Health impact assessment
+
+## 🔄 Application Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant App
+    participant Firebase
+    participant GeminiAI
+    participant Chatbot
+
+    User->>App: Scans Product Label
+    App->>Firebase: Upload Image
+    Firebase-->>App: Image URL
+    App->>GeminiAI: Analyze Image
+    GeminiAI-->>App: Analysis Results
+    App->>Firebase: Store Results
+    App->>User: Display Insights
+    User->>Chatbot: Ask Questions
+    Chatbot->>GeminiAI: Process Query
+    GeminiAI-->>Chatbot: Generate Response
+    Chatbot->>User: Provide Answer
+    User->>App: Save to History
+    App->>Firebase: Update User History
+```
+
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: React with TypeScript
+- **Styling**: TailwindCSS + Framer Motion
+- **Backend**: Firebase
+- **AI Integration**: Gemini AI
+
+## 🤖 AI Assistant Features
+
+The integrated AI chatbot in the websiteserves as your personal product expert:
+
+- **Instant Answers**: Get immediate responses about ingredients, nutrition, and health claims
+- **Context-Aware**: The chatbot understands the scanned product's context for accurate answers
+- **Health Insights**: Receive detailed explanations about health implications
+- **Ingredient Analysis**: Understand complex ingredient names and their purposes
+- **Safety Alerts**: Get warnings about potential allergens or harmful ingredients
+- **Smart Recommendations**: Receive personalized suggestions based on your health profile
+
+The AI assistant is powered by Google's Gemini AI, providing:
+- Natural language understanding
+- Real-time response generation
+- Product-specific knowledge
+- Health and safety awareness
+- Personalized interactions
+
+
+## 📱 Other Features
+
+- **Smart Label Scanning**
+  - OCR-powered text extraction
+  - Ingredient analysis
+  - Claim verification
+
+- **Personalized Insights**
+  - Health score calculation
+  - Dietary recommendations
+  - Allergen alerts
+
+- **User Dashboard**
+  - Scan history
+  - Favorite products
+  - Consumption patterns
+  - Health trends
+
+- **AI-Powered Analysis**
+  - Marketing claim verification
+  - Ingredient safety assessment
+  - Nutritional value analysis
+
+
+
+---
+
+<p align="center">Made with ❤️ for healthier food choices</p> 
