@@ -53,32 +53,6 @@ graph TD
     style J fill:#4285F4
 ```
 
-### Core Components
-
-1. **Frontend Layer**
-   - React 18 with TypeScript
-   - Vite for blazing-fast builds
-   - TailwindCSS for styling
-   - Framer Motion for animations
-   - Recharts for data visualization
-
-2. **State Management**
-   - React Context API
-   - Custom hooks for business logic
-   - Type-safe state management
-
-3. **Backend Services**
-   - Firebase Authentication
-   - Cloud Firestore for data storage
-   - Cloud Storage for images
-   - Gemini AI for image analysis and chatbot
-
-4. **AI Assistant**
-   - Real-time product analysis
-   - Interactive chat interface
-   - Context-aware responses
-   - Ingredient safety analysis
-   - Health impact assessment
 
 ## 🔄 Application Workflow
 
