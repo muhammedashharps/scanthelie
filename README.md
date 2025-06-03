@@ -144,9 +144,7 @@ The AI assistant is powered by Google's Gemini AI, providing:
 
 - **User Dashboard**
   - Scan history
-  - Favorite products
-  - Consumption patterns
-  - Health trends
+
 
 - **AI-Powered Analysis**
   - Marketing claim verification
