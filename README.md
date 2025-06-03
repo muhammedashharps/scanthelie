@@ -1,12 +1,29 @@
 # 🔍 ScanTheLie
 
-## 🌐 Live Demo
-**Experience it now:** [https://scanthelie.vercel.app](https://scanthelie.vercel.app)
+<div align="center">
+
+### AI-Powered Food Label Analysis
+
+[<img src="https://img.shields.io/badge/LIVE_DEMO-Try_Now-FF4081?style=for-the-badge&logoColor=white" width="200"/>](https://scanthelie.vercel.app)
 
 [![Deployed with Vercel](https://img.shields.io/badge/Deployed%20with-Vercel-black?style=for-the-badge&logo=vercel)](https://scanthelie.vercel.app)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
 [![Powered by Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%20AI-4285F4?style=for-the-badge&logo=google)](https://cloud.google.com/gemini)
 
+[📸 Try Demo](https://scanthelie.vercel.app) • [📚 Documentation](./docs/SIMPLE_DOCS.md) • [🤝 Contributing](./CONTRIBUTING.md) • [📝 Report Bug](https://github.com/muhammedashharps/scanthelie/issues)
+
+</div>
+
+### 📸 Try with these example images:
+
+<div align="center">
+<img src="./.github/assets/example1.jpg" width="300" alt="Example 1 - Clear product label"/>
+<img src="./.github/assets/example2.jpg" width="300" alt="Example 2 - Clear ingredients list"/>
+
+*For best results, ensure your product label images are clear and well-lit like these examples*
+</div>
+
+[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-⚡-yellow)](#)
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?logo=vite)](https://vitejs.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-11.8.1-FFCA28?logo=firebase)](https://firebase.google.com/)
